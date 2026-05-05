@@ -15,7 +15,7 @@ export const createPost = asyncHandler(async (req, res, next) => {
             size: req.file.size,
             alt: req.body.featuredImageAlt || req.file.originalname,
         });
-
+        ///DASDASDASDASDAS
         data.featuredImage = media._id;
     }
 
