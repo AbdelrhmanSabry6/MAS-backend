@@ -5,8 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed:admin": "node scripts/seedAdmin.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed:admin": "node scripts/seedAdmin.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
